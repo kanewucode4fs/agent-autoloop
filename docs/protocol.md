@@ -1,5 +1,7 @@
 # 协议
 
+按任务查文档见[总索引](00-总索引.md)；产品范围见[需求文档](01-需求文档/需求.md)，实现结构见[技术架构](03-技术架构/架构详解.md)。本文维护当前已实现的协议约定，中控页面仍属后续计划。
+
 整个系统是一个循环，三个口子。
 
 ```
@@ -496,7 +498,7 @@ Webhook 通道的 `config.json` 配置使用 `use: "webhook"`、`url` 和 `platf
 | `examples/recipes/`                                      | 完整场景的规则、任务 Skill 与启用说明                                   |
 | `examples/plugins/`、`examples/skills/`、`examples/*.sh` | 最小插件、独立任务手册和 curl/jq 示例                                   |
 | `skills/agent-autoloop/`                                 | 中台的正式配置与操作手册，供用户和 Agent 使用                           |
-| `docs/`                                                  | 通信协议、插件开发说明与架构图                                          |
+| `docs/`                                                  | 需求、业务与技术架构、部署、使用、审计，以及协议、插件教程和架构图       |
 | `tests/`                                                 | 日常行为测试及测试辅助代码                                              |
 | `sim/`                                                   | 固定种子模拟、有界穷举、强杀与变异                                      |
 | `scripts/`、`.github/workflows/`                         | 性能与真机验证、安装冒烟和跨平台 CI                                     |

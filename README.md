@@ -235,6 +235,7 @@ Apple M5 Pro、24 GB、Node 24.21.0。写入逐条提交，事务落盘后才应
 
 ## 更多文档
 
+- [完整文档索引：需求、业务、技术、部署、使用与审计](docs/00-总索引.md)
 - [安装说明](INSTALL.md)
 - [规则与交付流水线配置手册](skills/agent-autoloop/SKILL.md)
 - [如何编写插件](docs/plugins.md)
@@ -257,7 +258,7 @@ Apple M5 Pro、24 GB、Node 24.21.0。写入逐条提交，事务落盘后才应
 | `examples/recipes/` | 完整场景：规则、任务 Skill 和启用说明 |
 | `examples/plugins/`、`examples/skills/`、`examples/*.sh` | 最小插件模板、独立任务手册和 Shell 示例 |
 | `skills/agent-autoloop/` | 中台的正式配置与操作手册，安装时也提供给 Agent 使用 |
-| `docs/` | 通信协议、插件开发说明与中英文架构图 |
+| `docs/` | 需求、业务与技术架构、部署、使用、审计，以及协议、插件教程和中英文架构图 |
 | `tests/`、`sim/` | 日常行为测试，以及模拟、穷举、强杀和变异检查 |
 | `scripts/`、`.github/workflows/` | 性能与真机验证、安装冒烟脚本，以及 Windows / Linux / macOS CI |
 | 根目录文档与 `install.sh` | 中英文 README、安装说明、安全边界、开发约定、许可证与安装脚本 |

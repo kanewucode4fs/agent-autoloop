@@ -237,6 +237,7 @@ For automated workloads, providers generally recommend using API keys rather tha
 
 ## Documentation
 
+- [完整文档索引：需求、业务、技术、部署、使用与审计](docs/00-总索引.md)
 - [Installation guide](INSTALL.md)
 - [Configuration & delivery pipeline manual](skills/agent-autoloop/SKILL.md)
 - [Writing plugins](docs/plugins.md)
@@ -259,7 +260,7 @@ For automated workloads, providers generally recommend using API keys rather tha
 | `examples/recipes/` | Complete recipes with rules, a task Skill, and setup instructions |
 | `examples/plugins/`, `examples/skills/`, `examples/*.sh` | Minimal plugin templates, standalone task guides, and Shell examples |
 | `skills/agent-autoloop/` | The hub's configuration and operation manual, also made available to agents during installation |
-| `docs/` | Protocol, plugin guide, and Chinese / English architecture diagrams |
+| `docs/` | 需求、业务与技术架构、部署、使用、审计，以及协议、插件教程和中英文架构图 |
 | `tests/`, `sim/` | Everyday behavior tests, simulation, enumeration, crash tests, and mutation checks |
 | `scripts/`, `.github/workflows/` | Performance and real-agent checks, installation smoke scripts, and Windows / Linux / macOS CI |
 | Root documents and `install.sh` | Chinese / English READMEs, installation, security, development guidelines, license, and installer |

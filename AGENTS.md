@@ -1,5 +1,11 @@
 # 给改这个仓库的 Agent
 
+## 项目阶段
+
+`iteration`（增量交付期）。
+
+Vault 开发工作流的公共规则见 [/Users/kanewu/Documents/Obsidian/dev-vault/VAULT.md](/Users/kanewu/Documents/Obsidian/dev-vault/VAULT.md)，执行约定见 [/Users/kanewu/Documents/Obsidian/dev-vault/.codex/workflows/execution.md](/Users/kanewu/Documents/Obsidian/dev-vault/.codex/workflows/execution.md)。业务步骤由 `/Users/kanewu/Documents/Obsidian/dev-vault/.codex/skills/dev-*/SKILL.md` 中对应的独立技能定义，Codex 使用 `$dev-*` 入口执行。
+
 先读 [docs/protocol.md](docs/protocol.md) 和 [架构图](docs/architecture.svg)：它们说明最终实现。
 
 ## 原则
